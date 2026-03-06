@@ -1,0 +1,74 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"module": "commonjs",
+		"lib": [
+			"ES2020"
+		],
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"noImplicitAny": false,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"useUnknownInCatchVariables": false,
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"baseUrl": "./src",
+		"paths": {
+			"@config/*": [
+				"config/*"
+			],
+			"@controllers/*": [
+				"controllers/*"
+			],
+			"@models/*": [
+				"models/*"
+			],
+			"@routes/*": [
+				"routes/*"
+			],
+			"@services/*": [
+				"services/*"
+			],
+			"@middleware/*": [
+				"middleware/*"
+			],
+			"@utils/*": [
+				"utils/*"
+			],
+			"@websocket/*": [
+				"websocket/*"
+			],
+			"@indicators/*": [
+				"indicators/*"
+			],
+			"@strategies/*": [
+				"strategies/*"
+			],
+			"@types/*": [
+				"types/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"**/*.spec.ts",
+		"**/*.test.ts"
+	]
+}
